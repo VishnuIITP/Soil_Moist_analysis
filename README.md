@@ -28,7 +28,42 @@ The goal is to understand how soil moisture varies and whether it depends on geo
    - Weak correlations made it hard to find strong geographic patterns.  
    - Skewed distribution required careful interpretation.  
    - Uneven sampling across latitude/longitude bands.
-    
+
+## Installation
+
+i). **Clone the Repository**
+   ```bash
+   git clone https://github.com/VishnuIITP/Soil_Moist_analysis.git
+   cd Soil_Moist_analysis
+
+ii). **Set Up Python Environment**
+   - Install Python 3.9 or higher.
+   - (Optional but recommended) Create a virtual environment:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate   # Linux/Mac
+     venv\Scripts\activate      # Windows
+     ```
+
+iii). **Install Dependencies**
+   - Install required libraries:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Typical dependencies include:
+     - pandas  
+     - numpy  
+     - matplotlib  
+     - seaborn  
+     - scikit-learn
+
+iv0. **Verify Installation**
+   - Run a quick check:
+     ```bash
+     python eda.py
+     ```
+   - If everything is installed correctly, plots and results will be generated in the `results/` folder.
+  
 
 ## Final Observations
 Soil moisture variation is **not strongly explained by latitude or longitude**.  
